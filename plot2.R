@@ -1,5 +1,5 @@
 #set working directory
-setwd("C:/Users/User/Desktop\Lab7")
+setwd("C:/Users/User/Desktop/Lab7")
 
 library(data.table)
 

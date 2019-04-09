@@ -1,3 +1,4 @@
+#set working directory
 setwd("C:/Users/User/Desktop/Lab7")
 
 library(data.table)
@@ -28,4 +29,3 @@ legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2,
 ## output histogram to PNG
 dev.copy(png, file="plot3.png", height=480, width=480)
 dev.off()
-

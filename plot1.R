@@ -1,5 +1,5 @@
-#Plot 1 
-setwd("C:/Users/User/Desktop\Lab7")
+#set working directory
+setwd("C:/Users/User/Desktop/Lab7")
 
 #load library data.table
 library(data.table)
@@ -21,4 +21,3 @@ hist(DT.filter$Global_active_power,
      xlab="Global Active Power (kilowatts)", 
      main="Global Active Power")
 dev.off()
-
